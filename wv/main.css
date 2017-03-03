@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background: sienna;
+}
+
+.main {
+  margin-top: 25%;
+}
+
+#random {
+  text-decoration: none;
+  color: #BBB;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #FFF;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h3 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
