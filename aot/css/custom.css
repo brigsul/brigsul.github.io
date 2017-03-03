@@ -1,0 +1,73 @@
+body {
+   background-color: red;
+}
+
+.header h1 {
+   padding-bottom: 10px;
+   text-transform: uppercase;
+}
+
+.jumbotron {
+   margin: 2px;
+   padding: 0px;
+   width: 100%;
+   text-align: center;
+   background-color: #FFF;
+}
+
+.jumbotron img {
+   width: 90%;
+   border-radius: 10px;
+}
+
+.row3 {
+   margin-left: 10%;
+   width: 100%;
+}
+
+.row3 blockquote {
+   margin-top: 30px;
+   text-align: center;
+   width: 90%;
+}
+
+#stats th, td {
+   text-align: center;
+   overflow: hidden;
+}
+
+#stats table {
+   table-layout: fixed;
+}
+
+.table-scrollable {
+   overflow: auto;
+}
+
+.container-fluid {
+   width: 90%;
+   background-color: white;
+}
+
+#biotable {
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 30px;
+}
+#align {
+   padding-top: 15px;
+}
+
+#stattable {
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 30px;
+}
+
+#records h4, ul {
+   margin-left: 15px;
+}
+
+#records ul {
+   padding-bottom: 20px;
+}
