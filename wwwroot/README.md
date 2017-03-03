@@ -1,2 +1,0 @@
-# brigsul.github.io
-Portfolio
