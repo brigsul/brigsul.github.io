@@ -25,7 +25,7 @@ h1, h2, h3, h4 {
 }
 
 #page1 {
-  background-image: url("https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg");
+  background-image: url("../img/landscape.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -76,7 +76,7 @@ h1, h2, h3, h4 {
 }
 
 #page3 {
-  background-image: url("https://static.pexels.com/photos/57007/pexels-photo-57007.jpeg");
+  background-image: url("../img/computer.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
