@@ -5,7 +5,10 @@
   <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/devicon.css" type="text/css" rel="stylesheet">
+  <link href="css/devicon-colors.css" type="text/css" rel="stylesheet">
   <link href="css/custom.css" type="text/css" rel="stylesheet">
+  
 
   <title>Brian Sullivan - Portfolio Page</title>
 </head>
@@ -27,8 +30,8 @@
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#page2">About</a></li>
-        <li><a href="#page3">Portfolio</a></li>
-        <li><a href="#page4">Contact</a></li>
+        <li><a href="#page4">Portfolio</a></li>
+        <li><a href="#page5">Contact</a></li>
        </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -51,25 +54,71 @@
     <div class="well about-well">
       <p>My name is Brian and I am an aspiring Web Developer in the Washington, D.C. area.  I currently work as a fund coordinator at a higher education institution, while taking advantage of guided courses to teach myself the art of web development in my free time.</p>
     </div>
+    <h3 id="skill-head"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> <strong>Skills</strong></h3>
+    <ul>
+      <li>
+        <div>
+          <label>Browsers</label>
+          <ul>
+            <li><i class="devicon-chrome-plain-wordmark colored"></i></li>
+            <li><i class="devicon-firefox-plain-wordmark colored"></i></li>
+            <li><i class="devicon-safari-plain-wordmark colored"></i></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div>
+          <label>Editors</label>
+          <ul>
+            <li><i class="devicon-atom-original-wordmark colored"></i></li>
+            <li><i class="devicon-gimp-plain colored"></i></li>
+            <li><i class="devicon-photoshop-line colored"></i></li>
+            <li><i class="devicon-vim-plain colored"></i></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div>
+          <label>Languages</label>
+          <ul>
+            <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+            <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+            <li><i class="devicon-javascript-plain colored"></i></li>
+            <li><i class="devicon-git-plain-wordmark colored"></i></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div>
+          <label>Frameworks</label>
+          <ul>
+            <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+            <li><i class="devicon-jquery-plain-wordmark colored"></i></li>
+            <li><i class="devicon-nodejs-plain-wordmark colored"></i></li>
+            <li><i class="devicon-react-original-wordmark colored"></i></li>
+          </ul>
+        </div>
+      </li>
+
+
+
+    </ul>
     <div class="col-sm-4 container-fluid">
       <h3><span class="glyphicon glyphicon-console" aria-hidden="true"></span> <strong>Coding</strong></h3>
-      <img src="img/coding.jpg"/>
       <p>Front-End Experience developing with HTML5/CSS3, Javascript, Bootstrap, & jQuery.</p>
     </div>
     <div class="col-sm-4 container-fluid">
       <h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> <strong>Education</strong></h3>
-      <img src="img/education.jpg" />
       <p>Completed/Ongoing Coding Courses: Codecademy, FreeCodeCamp, theodinproject</p>
       <p>Graduated University of Maryland with a B.S. in Political Science, 2011<p>
     </div>
     <div class="col-sm-4 container-fluid">
       <h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> <strong>Goals</strong></h3>
-      <img src="img/goals.jpg"/>
       <p>Work towards greater proficiency with all current languages.</p>
       <p>Gain knowlegde of back-end concepts and practices to become a Full-Stack Developer.</p>
     </div>
   </div>
-  <div class="row container-fluid page" id="page3">
+  <div class="row container-fluid page" id="page4">
     <div class="col-sm-10 col-sm-offset-1 portdiv">
       <h2>/Portfolio</h2>
       <div class="well port-well">
@@ -167,7 +216,7 @@
       </div>
     </div>
   </div>
-  <div class="row container-fluid page" id="page4">
+  <div class="row container-fluid page" id="page5">
     <h2>/Contact</h2>
     <div class="well contact-well">
       <p>If you'd like to contact me for employment, see more of my work, or just get in touch with me for general comments/questions, follow the links below: </p>
@@ -191,16 +240,6 @@
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <a href="https://www.facebook.com/b4rks1de" target="_blank" class="btn btn-lg conborder" id="btn-fac">Facebook</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <a href="https://twitter.com/_B4RK" target="_blank" class="btn btn-lg conborder" id="btn-twi">Twitter</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
               <a href="https://www.freecodecamp.com/brigsul"  target="_blank" class="btn btn-lg conborder" id="btn-fcc">FreeCodeCamp</a>
             </div>
           </div>
@@ -208,7 +247,7 @@
         <div class="col-sm-6">
           <div class="col-md-10 col-md-offset-1" id="contactform">
             <a href="mailto:bri.g.sullivan@gmail.com">
-              <button id="contact">
+              <button id="contact" class="btn">
                 Email Me!
               </button>
             </a>
