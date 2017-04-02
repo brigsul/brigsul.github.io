@@ -49,6 +49,8 @@ h1, h2, h3, h4 {
   padding-top: 3%;
   text-align: center;
   padding-bottom: 3%;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .about-well {
@@ -124,6 +126,8 @@ i {
   padding-top: 3%;
   text-align: center;
   padding-bottom: 5%;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .contact-well {
