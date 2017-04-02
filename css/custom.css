@@ -106,7 +106,6 @@ i {
 
 .port-thumbnail img {
   padding: 0 8px 8px 8px;
-  margin-top: -10px;
 }
 
 .caption ul {
@@ -120,6 +119,10 @@ i {
 
 .port-thumbnail {
   padding-top: 25px;
+}
+
+.portdiv .thumb {
+  float: left;
 }
 
 #page5 {
